@@ -21,7 +21,7 @@ nav{
     width: 100%;
     /*background-color: antiquewhite;*/
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 nav > a{
     text-decoration: none;
@@ -33,4 +33,24 @@ nav > a{
 }
 nav > a:hover{
     background-color: aqua;
+}
+.content{
+    width: 100%;
+    height: auto;
+    /* display: flex; */
+}
+.content > .bloco1{
+    width: 100%; 
+    height: 700px;
+    /* display: inline-block; */
+}
+.content > .bloco1 > h2{
+    background-color: aqua;
+    width: 100%;
+    height: 600px;
+}
+.content > .bloco1 > img{
+    background-color: black;
+    width: 30%;
+    height: 100%;
 }
