@@ -73,7 +73,26 @@ nav > a:hover{
     background-size: cover;
     background-position: top center;
     color: #fff;
-    display: flex;
     width: 100%; 
     height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cnt-bloco2{
+    background-color: rgba(0, 0, 0, 0.644); 
+    width: 50%;
+    height: 400px;
+    padding: 05%;
+    text-align: center;
+} 
+.cnt-bloco2 > h2{
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.cnt-bloco2 > p{
+    text-align: center;
+    font-weight: 100;
+    font-size: 35px;
 }
